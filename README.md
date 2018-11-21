@@ -5,11 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/CGModelTransition.svg?style=flat)](https://cocoapods.org/pods/CGModelTransition)
 [![Platform](https://img.shields.io/cocoapods/p/CGModelTransition.svg?style=flat)](https://cocoapods.org/pods/CGModelTransition)
 
+<p align="center"><img src="https://github.com/CodeGeekXu/CGModelTransition/blob/master/Example/CGModelTransition/CGModelTransition.gif"/></p>
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+iOS >= 8.0
+ARC
 
 ## Installation
 
