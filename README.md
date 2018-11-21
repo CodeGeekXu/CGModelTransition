@@ -20,10 +20,33 @@ it, simply add the following line to your Podfile:
 pod 'CGModelTransition'
 ```
 
+## Usage
+
+```objc
+#import <CGModelTransition/CGModelTransition.h>
+
+@implementation CGTopViewController
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        CGModelTransitionController *transition = [[CGModelTransitionController alloc]initWithPresentedViewController:self];
+        transition.presentedContentSize = CGSizeMake(275, 230);;
+        transition.transitionAnimation = CGTransitionAnimationSlideFromTop;
+        transition.animateDuration = 1;
+        self.modelTransition = transition;
+    }
+    return self;
+}
+
+@end
+```
+```objc
+    CGTopViewController *vc = [CGTopViewController new];
+    [self presentViewController:vc animated:YES completion:nil];
+```
+
 ## Author
 
 codegeekxu@gmail.com, codegeekxu@gmail.com
-
-## License
-
-CGModelTransition is available under the MIT license. See the LICENSE file for more info.
