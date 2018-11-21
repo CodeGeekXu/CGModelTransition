@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CGModelTransition_Example' do
+  pod 'CGModelTransition', :path => '../'
+
+  target 'CGModelTransition_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

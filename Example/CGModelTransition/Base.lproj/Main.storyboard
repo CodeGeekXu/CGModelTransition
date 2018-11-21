@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="CGViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qqa-BN-tk2">
+                                <rect key="frame" x="127.5" y="120" width="120" height="30"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="sSJ-tj-w8V"/>
+                                </constraints>
+                                <state key="normal" title="Top">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapTopButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="Tqf-R9-jjj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Pb-eV-z3U">
+                                <rect key="frame" x="127.5" y="180" width="120" height="30"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="o7l-VR-XYS"/>
+                                </constraints>
+                                <state key="normal" title="Center">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapAlertControllerButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="bpy-Eh-l9Y"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom model transition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ytx-cJ-mC9">
+                                <rect key="frame" x="93.5" y="50" width="188" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zr-GS-xJq">
+                                <rect key="frame" x="127.5" y="240" width="120" height="30"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="2aJ-BS-sFN"/>
+                                </constraints>
+                                <state key="normal" title="Bottom">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapDatePickerButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="Z2l-Pb-2Li"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ytx-cJ-mC9" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="5xA-zv-ePl"/>
+                            <constraint firstItem="6zr-GS-xJq" firstAttribute="top" secondItem="7Pb-eV-z3U" secondAttribute="bottom" constant="30" id="Ayi-QW-rCT"/>
+                            <constraint firstItem="Qqa-BN-tk2" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="100" id="NAi-Eh-edZ"/>
+                            <constraint firstItem="7Pb-eV-z3U" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="jZ4-tw-pxP"/>
+                            <constraint firstItem="Ytx-cJ-mC9" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="30" id="kc1-8i-wNo"/>
+                            <constraint firstItem="6zr-GS-xJq" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="u41-ZI-6np"/>
+                            <constraint firstItem="Qqa-BN-tk2" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="voK-97-V0h"/>
+                            <constraint firstItem="7Pb-eV-z3U" firstAttribute="top" secondItem="Qqa-BN-tk2" secondAttribute="bottom" constant="30" id="wcC-Oo-MKW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="433"/>
+        </scene>
+    </scenes>
+</document>
