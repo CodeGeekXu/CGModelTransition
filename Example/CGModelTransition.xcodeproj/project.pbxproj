@@ -27,6 +27,7 @@
 		DC511EEE21A547E5005D7280 /* CGAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC511EEC21A547E5005D7280 /* CGAlertController.m */; };
 		DC511EEF21A547E5005D7280 /* CGAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC511EED21A547E5005D7280 /* CGAlertController.xib */; };
 		DC511EF221A54DC8005D7280 /* CGTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC511EF121A54DC8005D7280 /* CGTopViewController.m */; };
+		DC511EF421A55D71005D7280 /* CGModelTransition.gif in Resources */ = {isa = PBXBuildFile; fileRef = DC511EF321A55D70005D7280 /* CGModelTransition.gif */; };
 		DC75519C21A5315000C9E723 /* CGDatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC75519A21A5315000C9E723 /* CGDatePickerController.m */; };
 		DC75519D21A5315000C9E723 /* CGDatePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC75519B21A5315000C9E723 /* CGDatePickerController.xib */; };
 /* End PBXBuildFile section */
@@ -76,6 +77,7 @@
 		DC511EED21A547E5005D7280 /* CGAlertController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CGAlertController.xib; sourceTree = "<group>"; };
 		DC511EF021A54DC8005D7280 /* CGTopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGTopViewController.h; sourceTree = "<group>"; };
 		DC511EF121A54DC8005D7280 /* CGTopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGTopViewController.m; sourceTree = "<group>"; };
+		DC511EF321A55D70005D7280 /* CGModelTransition.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CGModelTransition.gif; sourceTree = "<group>"; };
 		DC75519921A5315000C9E723 /* CGDatePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGDatePickerController.h; sourceTree = "<group>"; };
 		DC75519A21A5315000C9E723 /* CGDatePickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGDatePickerController.m; sourceTree = "<group>"; };
 		DC75519B21A5315000C9E723 /* CGDatePickerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CGDatePickerController.xib; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 		6003F593195388D20070C39A /* Example for CGModelTransition */ = {
 			isa = PBXGroup;
 			children = (
+				DC511EF321A55D70005D7280 /* CGModelTransition.gif */,
 				6003F59C195388D20070C39A /* CGAppDelegate.h */,
 				6003F59D195388D20070C39A /* CGAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -299,6 +302,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				DC511EF421A55D71005D7280 /* CGModelTransition.gif in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				DC75519D21A5315000C9E723 /* CGDatePickerController.xib in Resources */,
 				DC511EEF21A547E5005D7280 /* CGAlertController.xib in Resources */,
