@@ -53,4 +53,4 @@ pod 'CGModelTransition'
 
 ## Author
 
-codegeekxu@gmail.com, codegeekxu@gmail.com
+codegeekxu@gmail.com
