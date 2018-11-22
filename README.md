@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/CGModelTransition.svg?style=flat)](https://cocoapods.org/pods/CGModelTransition)
 [![Platform](https://img.shields.io/cocoapods/p/CGModelTransition.svg?style=flat)](https://cocoapods.org/pods/CGModelTransition)
 
-<p align="center"><img src="https://github.com/CodeGeekXu/CGModelTransition/blob/master/Example/CGModelTransition/CGModelTransition.gif"/></p>
+<img src="https://github.com/CodeGeekXu/CGModelTransition/blob/master/Example/CGModelTransition/CGModelTransition.gif"/>
 
 ## Example
 
